@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Demo</title>
+</head>
+<body>
+  <h1>Forms Demo</h1>
+    <form action="/food">
+        <button type="button"> Lütfen Formu Gönderme!!
+        </button>
+      <label for="username"> Kullanıcı adı giriniz:</label>
+      <input type="text" placeholder="Kullanıcı adı" id="username">
+       <label for="password"> Şifre giriniz:</label>
+           <input type="Password"placeholder="Şifre" id="password">
+           <button>
+        Gönder!!
+        </button>
+     <label for="color"> Renk Seçiniz</label>  <input type="color" id="color"><br>
+     <!--  -->
+    </form>
+    <form action=" https://www.google.com/search">
+     <input type="search" id="search" name="q">
+      <button> Search Google</button>
+    </form>
+
+</form>
+<form action="https://www.youtube.com/results?">
+ <input type="search" id="search" name="search_query">
+  <button> Search Youtube</button>
+</form>
+
+<h2>Daha Fazla İnput</h2>
+<form action="/birds">
+    <input type="checkbox" checked id="agree" name="tos">
+     <label for="agree">Kabul Ediyorm</label>
+     <p>
+        <label for="xs">XS</label>
+        <input type="radio"Name="size" İd="xs"value="xs"/>
+        <label for="s">S</label>
+        <input type="radio"Name="size"İd="s"value="s"/>
+        <label for="m">M</label>
+        <input type="radio"Name="size"İd="m" value="m"/>
+     </p>
+     <p>
+        <label for="animal"> Favori Hayvanınızı giriniz:</label>
+        <select name="animal" id="id"> 
+            <option value="bird">Kuş</option>
+            <option value="dog">Köpek </option>
+            <option value="cat">Kedi</option>
+        </select>
+     </p>
+     <p>
+        <label for="cheese"> Peynir miktarı giriniz:</label>
+        <input type="range" İD="cheese"min="1"max="100" name="cheese_amount"/>
+     </p>
+     <p>
+        <label for="istek"> Özel İstek</label>
+        <textarea İD="istek" name="istek"cols="20"rows="10" value="Buraya birşeyler giriniz"></textarea>
+     </p>
+     <button> Gönder</button>
+   </form>
+   <h2>Validations</h2>
+   <form action="">
+    <label for="first"> İsim giriniz:</label>
+    <input type="text"id="first"name="first"/>
+    <button> Submit</button>
+   
+   </form>
+</body>
+</html>
